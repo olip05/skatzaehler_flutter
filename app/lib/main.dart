@@ -74,8 +74,8 @@ class _MyHomePageState extends State<MyHomePage> {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           Row(mainAxisAlignment: MainAxisAlignment.start, children: [
-            FloatingActionButton(
-                onPressed: _incrementCounter, child: const Text("Menü")),
+            IconButton(
+                onPressed: _incrementCounter, icon: const Icon(Icons.menu)),
           ]),
           const Text("Game title goes here"),
           Table(columnWidths: const {
@@ -209,9 +209,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       onPressed: _incrementCounter, child: const Text("Re")),
                 ],
               ),
-              Text("$player $verhalten " +
-                  calculatedPoints().toString() +
-                  " Punkte"),
+              Text("$player $verhalten ${calculatedPoints()} Punkte"),
               Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
