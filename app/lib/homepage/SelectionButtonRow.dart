@@ -50,6 +50,7 @@ class SelectionButtonRowState<T> extends State<SelectionButtonRow<T>> {
           SegmentedButton<T>(
             segments: segments,
             selected: {selectedValue},
+            showSelectedIcon: false,
             onSelectionChanged: (Set<T> newSelection) {
               if (newSelection.isNotEmpty) {
                 setState(() {
