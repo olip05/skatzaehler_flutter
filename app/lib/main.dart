@@ -1,4 +1,5 @@
 import 'package:app/homepage/homepage_view.dart';
+import 'package:app/menupage/menupage_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,6 +33,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const HomepageView();
+    return const MenupageView();
   }
 }

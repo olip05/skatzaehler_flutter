@@ -1,9 +1,9 @@
-import 'package:app/homepage/CenteredTable.dart';
-import 'package:app/homepage/CheckBoxListTileRow.dart';
-import 'package:app/homepage/MenuButton.dart';
-import 'package:app/homepage/RotatingWidgetRow.dart';
-import 'package:app/homepage/ScrollableWidgetFrame.dart';
-import 'package:app/homepage/SelectionButtonRow.dart';
+import 'package:app/widgets/CenteredTable.dart';
+import 'package:app/widgets/CheckBoxListTileRow.dart';
+import 'package:app/widgets/MenuButton.dart';
+import 'package:app/widgets/RotatingWidgetRow.dart';
+import 'package:app/widgets/ScrollableWidgetFrame.dart';
+import 'package:app/widgets/SelectionButtonRow.dart';
 import 'package:flutter/material.dart';
 
 class HomepageView extends StatefulWidget {
